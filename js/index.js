@@ -28,7 +28,7 @@ function hasClass(obj, c) {
     for (i in tmp)
         if(tmp[i] == c)
             return true;
-    return false;
+            return false;
 
 }
 
