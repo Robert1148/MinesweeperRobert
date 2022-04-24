@@ -50,3 +50,18 @@ function checkWin() {
     else return;
 
 }
+
+
+function youWin() {
+    alert('Du hast gewonnen!');
+    Zustand = 2;
+}
+
+function youLose() {
+    for(a=1;a<=Hoehe;++a)
+    for(b=1;b<=Breite;++b)
+    if(PositionM[a][b]==1)
+    document.getElementById('m'+a+'x'+b).className='mine';
+    Zustand = 0;
+
+}
